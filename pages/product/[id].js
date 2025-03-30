@@ -1,5 +1,5 @@
 import Head from "next/head";
-import "../../styles/globals.css";
+
 
 export async function getStaticPaths() {
   const res = await fetch("https://fakestoreapi.com/products");
